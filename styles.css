@@ -1,0 +1,98 @@
+body {
+  /* background-color: rgb(171, 216, 231); */
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  border-radius: 20px;
+  color: #af4c4c;
+  margin: auto;
+  padding: 15px;
+  position: relative;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #0e0e0e;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+#get-weather-btn {
+  background: linear-gradient(45deg, #c58da4, #d47948);
+  color: #f7f5f5;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(222, 45, 45, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#get-weather-btn:hover {
+  box-shadow: 0 6px 10px rgba(13, 66, 211, 0.3);
+}
+
+input {
+  background-color: #fff; /* Set a visible background */
+  color: #000; /* Ensure text is visible */
+  border: 1px solid #ccc; /* Add a visible border */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+h1 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#error-message {
+  color: #060505;
+  margin-top: 20px;
+}
+
+#weather-info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin: 0 auto;
+  max-width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#city-name {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#temperature {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+#description {
+  font-size: 20px;
+}
